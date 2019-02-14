@@ -5,6 +5,8 @@ body{
     width: 960px;
     font-size: 18px;
     text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
@@ -14,32 +16,42 @@ h1, p {
     margin: 10px;
 }
 
+.header, .nav, .footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    padding: 20px;
+}
 .header{
-margin: 20px;
-text-align: center;
-background-color: lightgray;
-padding:20px;
+margin-bottom: 5px;
+
 }
 
-.nav{
-background:#ebebeb;
-text-align: center;
-padding: 30px;
-margin: 30px;
-}
+
 
 .section{
-    background:#ebebeb;
+    background-color:#ebebeb;
     width: 50%;
+    height: 200px;
     float: left;
-    padding: 30px;
+    padding: 5px 10px 10px 10px;
 }
 
 .article{
     color:#ebebeb;
     background-color: #777;
+    height: 175px;
+    width: 98%;
+    margin-top: auto;
+    padding-top: 3px;
 }
 
+.h, .p
+{
+    margin: 5% 2% 5% 2%;
+    height: 40px;
+    padding-top: 3px;
+}
 .h{
     color:#777;
     background: #ebebeb;
@@ -52,14 +64,15 @@ margin: 30px;
 
 .aside{
     background:#ebebeb;
-    width: 40%;
-    float: left;
+    width: 43%;
+    height: 200px;
+    float: right;
+    padding: 10px 10px 10px 25px;
+    margin-left: 5px;
 }
-.footer{
-    background:#ebebeb;
-    clear: left;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-}
+ .footer{
+    clear: both;
+    margin-top: 240px;
+
+    
+} 
